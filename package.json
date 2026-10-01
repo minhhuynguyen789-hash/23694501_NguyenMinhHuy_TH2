@@ -1,0 +1,45 @@
+{
+  "name": "ktxgo-23694501",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^3.1.1",
+    "@react-navigation/bottom-tabs": "^7.20.0",
+    "@react-navigation/native": "^7.5.0",
+    "@react-navigation/native-stack": "^7.20.0",
+    "@shopify/flash-list": "^2.3.2",
+    "@tanstack/react-query": "^5.104.0",
+    "axios": "^1.20.0",
+    "expo": "^52.0.0",
+    "expo-haptics": "^57.0.3",
+    "expo-location": "^57.0.20",
+    "react": "19.2.3",
+    "react-native": "0.87.0",
+    "react-native-safe-area-context": "^5.10.1",
+    "react-native-screens": "^4.28.0",
+    "zod": "^3.24.2",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "20.2.0",
+    "@react-native-community/cli-platform-android": "20.2.0",
+    "@react-native-community/cli-platform-ios": "20.2.0",
+    "@react-native/babel-preset": "0.87.0",
+    "@react-native/eslint-config": "0.87.0",
+    "@react-native/metro-config": "0.87.0",
+    "@react-native/typescript-config": "0.87.0",
+    "@types/react": "^19.2.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "typescript": "^6.0.3"
+  }
+}
